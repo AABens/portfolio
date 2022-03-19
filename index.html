@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Menu</title>
+	<title>Welcome !</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -50,11 +50,11 @@
 					<ul class="main-navigation">
 						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
 						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<!-- <li><a class="smoothscroll"  href="#resume" title="">Resume</a></li> -->
+						<li><a class="smoothscroll"  href="#resume" title="">Portfolio</a></li>
+						<!-- <li><a class="smoothscroll"  href="#services" title="">Services</a></li>					 -->
 						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
-						<li><a href="styles.html" title="">Style Demo</a></li>				
+						<!-- <li><a href="styles.html" title="">Style Demo</a></li>				 -->
 					</ul>
 				</nav>    		
    		</div> <!-- /top-bar --> 
@@ -272,7 +272,7 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
+            <form name="contactForm" id="contactForm" method="post" action="mailto:bensada.abdelghani@gmail.com">
       			<fieldset>
 
                   <div class="form-field">
@@ -288,7 +288,7 @@
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
                  <div class="form-field">
-                     <button class="submitform">Submit</button>
+                     <button class="submitform" onclick="location.href='mailto:bensada.abdelghani@gmail.com';">Submit</button>
                      <div id="submit-loader">
                         <div class="text-loader">Sending...</div>                             
        				      <div class="s-loader">
@@ -303,8 +303,8 @@
       		</form> <!-- Form End -->
 
             <!-- contact-warning -->
-            <div id="message-warning">            	
-            </div>            
+            <!-- <div id="message-warning">            	
+            </div>             -->
             <!-- contact-success -->
       		<div id="message-success">
                <i class="fa fa-check"></i>Your message was sent, thank you!<br>
